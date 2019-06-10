@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wordCounter {
+    width: 70%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: azure;
+}
+
+textarea {
+    width: 70%;
+    height: 70%;
+    resize: none;
+}
